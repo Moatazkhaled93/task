@@ -1,0 +1,6 @@
+#!/bin/bash
+
+args="$@"
+command="php artisan $args"
+echo "$command"
+docker exec -it vp5_be bash -c "sudo -u devuser /bin/bash -c \"$command\""

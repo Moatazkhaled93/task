@@ -1,0 +1,4 @@
+#!/bin/bash
+
+docker exec -it vp5_be bash -c "/bin/bash"
+

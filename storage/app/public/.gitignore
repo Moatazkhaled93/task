@@ -1,0 +1,3 @@
+*
+!.gitignore
+!/jwtES256.key
